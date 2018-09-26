@@ -1,0 +1,377 @@
+.body{
+    font-size: 12px;
+    color: #fff;
+    font-family: montserrat;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.95)), url(../images/davido.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 677px;
+}
+
+.navbar-nav{
+    margin: auto;
+    font-family: montserrat;
+}
+
+.nav-item{
+    margin-right: 0px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"]
+{
+    background: transparent;
+    color: #fff;
+    width: 370px;
+    height: 40px;
+    border-bottom: 1px solid #4c4c4c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 0.9em;
+    text-align: left;
+    padding: 0 10px;
+    margin-right: 5px;
+    margin-left: 40px;
+}
+
+
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4d4d4d;
+    outline: none;
+    font-size: 15px;
+    text-align: left;
+}
+
+.btn-outline{
+    margin-right: 260px;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    font-size: 0.9em;
+    background-color: transparent;
+}
+
+.btn-outline:hover{
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    color: #fff;
+}
+
+#navprofile{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#navprofile img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 2px;
+    border-radius: 100%;
+}
+
+.notification{
+    position: absolute;
+    background-color: dodgerblue;
+    color: #fff;
+    font-size: 0.7em;
+    margin-top: -50px;
+    margin-left: 30px;
+    padding: 0px 5px;
+    border: 3px solid #000;
+    border-radius: 100%;
+}
+
+.nav-hr{
+    width: 1px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #fff;
+}
+
+#head-soc-icons, #head-soc-icons-last{
+    color: #e1e1e1;
+    font-size: 1.3em;
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+#head-soc-icons-last{
+    margin-right: 50px;
+}
+
+#head-soc-icons:hover, #head-soc-icons-last:hover{
+    color: coral;
+}
+
+.logo{
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#sideMenu{
+    position: sticky;
+    background: #000;
+    width: 8%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    padding-top: 0;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.img-side-tab{
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.explore,.promotion,.houses{
+    margin-bottom: 50px;
+    display: inline-block;
+    color: grey;
+}
+
+.movie-news{
+    display: inline-block;
+    color: grey;
+}
+
+
+
+
+.header-movies{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    padding: 0 250px;
+    font-family: montserrat;
+}
+
+.front-image{
+    height: 480px;
+    width: 330px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,.25);
+}
+
+.front-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 2px;
+}
+
+.col-md-8{
+    margin-top: 20px;
+}
+
+.head-movie-info-1 .heading{
+    font-size: 2.8em;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-left: -3px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.head-movie-info-1 span{
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: #fff;
+}
+
+.head-movie-info-1 .line-space{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.badges{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.badges .three-d,.hd,.age-grade{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+
+.badges .age-grade{
+    margin-left: 30px;
+    border-radius: 1px;
+    font-weight: bold;
+    border: 1px solid coral;
+    background-color: coral;
+}
+
+.movie-detail{
+    width: 400px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.buttons .watch-tra{
+    padding: 7px 10px;
+    border: 1px solid dodgerblue;
+    margin-right: 20px;
+    border-radius: 3px;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.buttons a .watch-tra{
+    color: #000;
+    text-decoration: none;
+}
+
+.buttons a .watch-tra:hover{
+    color: #fff;
+}
+
+.buttons .add-favour{
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.buttons a .add-favour{
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttons a .add-favour:hover{
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+.starring{
+    margin-top: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cast-images{
+    display: flex;
+    margin-left: 8px;
+    margin-top: -8px;
+    color: #fff;
+}
+
+.cast-images img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 100%;
+    border: 2px solid #000;
+    margin-left: -8px;
+}
+
+.cast-images p{
+    padding-top: 20px;
+    padding-left: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.rating{
+    font-size: 45px;
+    margin-left: 340px;
+    margin-top: -80px;
+    color: #fff;
+}
+
+.rating span{
+    border: 10px solid dodgerblue;
+    border-radius: 100%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-right: 24px;
+    padding-left: 24px;
+    text-align: center;
+}
+
+.rating span{
+    border-right-color: #0a0a0a;
+}
+
+.row a:hover{
+    text-decoration: none;
+}
+
+.view-details{
+    width: 130px;
+    margin-top: 35px;
+    margin-left: -13px;
+    padding: 10px;
+    border: 1px solid coral;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.view-details:hover{
+    background-color: coral;
+}
+
+.explore-header-foo{
+    position: absolute;
+    top: 96%;
+    left: 49%;
+    font-size: 0.9em;
+    color: #dfdfdf;
+}
+
+.explore-header-foo:hover{
+    color: #fff;
+}

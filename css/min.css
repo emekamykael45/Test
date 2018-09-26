@@ -1,0 +1,212 @@
+body{
+    font-size: 12px;
+}
+
+.card{
+    position: relative;
+    margin-top: 100px;
+    left: 38.35%;
+    width: 280px;
+    height: 400px;
+    background: #000;
+    /*overflow: hidden;*/
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.card:hover{
+    transition: all ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+.card .poster{
+    position: relative;
+    overflow: hidden;
+}
+
+.card .poster:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.card:hover .poster:before{
+    bottom: 0;
+    background: linear-gradient(0deg, #000 0%, transparent);
+}
+
+.card .poster img{
+    width: 100%;
+    height: 400px;
+    transition: 0.5s;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.card:hover .poster img{
+    filter: blur(2px);
+    transform: translateY(0px);
+}
+
+.top-caption{
+    margin-top: 50px;
+    margin-bottom: -70px;
+    color: #000;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.play{
+    position: absolute;
+    display: inline-block;
+    top: 160px;
+    left: 85px;
+    padding: 5px;
+    width: 100px;
+    height: 70px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    z-index: -1;
+    color: #fff;
+    border-radius: 100%;
+}
+.play img{
+    width: 50px;
+    margin: 5px;
+}
+.card a:hover{
+    text-decoration: none;
+    color: coral;
+}
+
+.card:hover .play{
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.details{
+    position: absolute;
+    height: 95.5%;
+    bottom: 2px;
+    right: -17px;
+    box-sizing: border-box;
+    transition: all ease-in-out 0.2s;
+    z-index: -10;
+    margin: 5px;
+    display: block;
+    padding: 10px;
+    color: #000;
+    border-radius: 0 15px 15px 0px;
+    width: 300px;
+}
+
+.card:hover .details{
+    right: -306px;
+    background-color: aqua;
+    z-index: 1;
+}
+
+.info-head{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.info-head hr{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    width: 280px;
+}
+
+.info-top{
+    display: flex;
+    padding: 0;
+    padding-left: 5px;
+    font-size: 0.95em;
+}
+
+.col-md-4{
+    display: inline-block;
+    padding: 0;
+    font-weight: 500;
+}
+
+.col-md-8{
+    display: inline-block;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.rel-date,.dir-by,.starring,.genre,.sypnosis{
+    display: inline-block;
+    font-weight: 400;
+    color: #ff9800;
+}
+
+.see-more{
+    margin-top: 30px;
+}
+
+.see-more a{
+    color: coral;
+    padding: 6px 15px;
+    border: 1px solid coral;
+    border-radius: 50px;
+}
+
+.see-more a:hover{
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: coral;
+}
+
+.info-bottom{
+    padding: 0;
+}
+
+.info-bottom hr{
+    margin-top: 20px;
+    margin-left: -5px;
+    margin-bottom: 30px;
+    width: 290px;
+}
+
+.info-foo{
+    display: flex;
+    text-align: center;
+    margin: -10px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 20px;
+    color: #000;
+    border-radius: 0 0 15px 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.info-foo hr{
+    left: 50px;
+    margin: 5px;
+    width: 1px;
+    height: 43px;
+    background-color: #000;
+}
+
+.foo-list h4{
+    color: gray;
+    font-size: 1.95em;
+    margin-bottom: 0px;
+}
+
+.foo-list span{
+    font-size: 0.96em;
+    font-weight: 100;
+}
+
+.foo-list span span{
+    font-weight: bold;
+}
